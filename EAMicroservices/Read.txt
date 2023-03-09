@@ -1,0 +1,46 @@
+﻿Not : Microservis te uygulamalar (IIS Express) den değilde, (Course.Services.Catalog) Kestrel sunucusu üzerinden kaldırılmalıdır
+
+Not : Container larımız ve images larımız yönetmek için "PORTAINER" (Community Edition) arayüzünü kullandık
+  -> Kurum Cmd de;
+       1. adım => "docker volume create portainer_data"
+       2. adım => "docker run -d -p 8000:8000 -p 9000:9000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest"
+       3. http://localhost:9000/#!/init/admin   üzerinden arayüze bağlanılabilir
+       4.) User : admin, Password : admin123456789
+       5.) Portainer üzerinden Docker Hub a gitmeden istenilen container çekilebilir. Ör : "Mongo" yazıp çekebilirsin
+
+Not : ("Docker Desktop" ve "Portainer")  aynı işe yarar
+
+
+
+
+--------------- Course.Services.Catalog ------------------
+* .Net 5.0
+* Database : MongoDb, ("MongoDB.Driver" kütüphanesi kurulmalı) ve Docker Container olarak ayağa kaldırılacak
+* appsettings.json içinde "launchBrowser": false,                     // False olması Proje ayagağa kalkarken default olarak bir tarayıcı ayağa kalmaması içindir
+* appsettings.json içinde "applicationUrl": "http://localhost:5011",  // 5011 portundan ayağa kalksın dedik
+
+
+------------------ Course.Shared --------------------
+
+* .Net 3.1  olarak create etme sebebimiz, Identity Server kullanağız 3.1 den sonraki sürümler ücretli olduğu için Identity Server api si de 3.1 olacak
+ve bu projeninde kullancağı modeller [Course.Shared] içinde olacağı için  [Course.Shared] da 3.1 olarak create ettik
+
+------------------ Course.IdentityServer --------------------
+
+* Database : SqlServer,
+* Identity Server kütüphanesi Token işlmeleri için kullanılan kütüphanedir
+* Kurulum;
+    1. adım => cmd de "dotnet new -i identityserver4.templates" hazır bir identity projesi oluşturulur
+    2. adım identity server projesini eklieyceğimiz dizini cmd de açtıktan sonra "dotnet new is4aspid --name Course.IdentityServer" yazıp enter ör:"C:\Users\emre.akturk\source\repos\EAMicroservices\IdentityServer>dotnet new is4aspid --name Course.IdentityServer"
+    3. adım  işlemin devamında çıkan soruya db migration işlemini kendimiz yapacağımız için  "n"  yani no dedik 
+    4. Portainer üzerinden Docker Hub a gitmeden istenilen container çekilebilir. Ör : "sql" yazıp çekebilirsin
+    5. windows authentication ile girdik
+    6. Identity Server endpointlerini görmek için  https://localhost:5001/.well-known/openid-configuration
+
+------------------ Course.Services.PhotoStock --------------------
+
+* Database yok sadece Fotoğraf kaydetmek ve silmek için wwwroot içerisine
+
+------------------ Course.Services.Basket --------------------
+
+* Database : Redis
