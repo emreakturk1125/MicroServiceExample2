@@ -44,3 +44,15 @@ ve bu projeninde kullancağı modeller [Course.Shared] içinde olacağı için  
 ------------------ Course.Services.Basket --------------------
 
 * Database : Redis
+
+------------------ Course.Services.Discount --------------------
+
+* Database : PostgreSQL  (user:admin, password:Password12*)
+* Dapper (Micro ORM) => Herhangibir db ile kullanılabilir  (Dapper.Contrib kütühanesi kullanıldı)
+   
+----------------- Dapper & EntityFramework farkı ---------------
+
+* Dapper'da SQL sorgularını kendiniz yazarsınız. EF'de ise  sql sorguları yerine LINQ sorguları yazılır ve bu LINQ sorgularını framework sql sorguarına çevirir
+* Dapper memory'de çalışmaz, ama ef de yapılan crud işlemleri memory de tutulur (AsNoTracking özelliğini kapatılmaz ise)  en son SaveChanges() metodu ile işlem tamamlanır
+      
+       

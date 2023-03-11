@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\Course.IdentityServer.csproj": {}
+    "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\Course.IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\Course.IdentityServer.csproj": {
+    "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\Course.IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\Course.IdentityServer.csproj",
+        "projectUniqueName": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\Course.IdentityServer.csproj",
         "projectName": "Course.IdentityServer",
-        "projectPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\Course.IdentityServer.csproj",
+        "projectPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\Course.IdentityServer.csproj",
         "packagesPath": "C:\\Users\\emre.akturk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\obj\\",
+        "outputPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emre.akturk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
-                "projectPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj"
+              "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
+                "projectPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj"
               }
             }
           }
@@ -118,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
+    "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
         "projectName": "Course.Shared",
-        "projectPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
+        "projectPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
         "packagesPath": "C:\\Users\\emre.akturk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\obj\\",
+        "outputPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emre.akturk\\AppData\\Roaming\\NuGet\\NuGet.Config",

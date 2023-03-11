@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lz4QCtzRzQDzk3BhZ/kFcb0VFRPpi/D8iJMg3P3/QmFEgV4ksClhXyAYGCvXPflBkDbf3yfrPGqj/dK8+C/64w==",
+  "dgSpecHash": "JPMJdg8DUFc4J37iQq7YVv0F3ycEJug3S6W9mDdZUO7VoexMCbIoX+efbJtiOBkVVp3Plq6qfiyVi7325RwwzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\Course.Services.PhotoStock.csproj",
+  "projectFilePath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\Course.Services.PhotoStock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emre.akturk\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\emre.akturk\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

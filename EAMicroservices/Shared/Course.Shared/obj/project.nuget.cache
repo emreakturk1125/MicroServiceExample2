@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e2kBw+y8y9RHHJiFhrd6TmLjgmEKTuXSBI22b3ZX/4CMv04U9O/LBEX8euleC6eze2TjlRqK/0YtKIUZDP/hQQ==",
+  "dgSpecHash": "crLhwpQhsv5YIuziJIj9qPIFKGnTr5cqHPPxTMdFEVDCxaizhITwLhvh+fWn02XG9G243YNTc4+osrp6Mcrn/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
+  "projectFilePath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emre.akturk\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\emre.akturk\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

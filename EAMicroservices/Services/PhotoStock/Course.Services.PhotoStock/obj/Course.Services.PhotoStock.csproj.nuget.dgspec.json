@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\Course.Services.PhotoStock.csproj": {}
+    "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\Course.Services.PhotoStock.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\Course.Services.PhotoStock.csproj": {
+    "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\Course.Services.PhotoStock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\Course.Services.PhotoStock.csproj",
+        "projectUniqueName": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\Course.Services.PhotoStock.csproj",
         "projectName": "Course.Services.PhotoStock",
-        "projectPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\Course.Services.PhotoStock.csproj",
+        "projectPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\Course.Services.PhotoStock.csproj",
         "packagesPath": "C:\\Users\\emre.akturk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\obj\\",
+        "outputPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Services\\PhotoStock\\Course.Services.PhotoStock\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emre.akturk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
-                "projectPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj"
+              "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
+                "projectPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
+    "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
         "projectName": "Course.Shared",
-        "projectPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
+        "projectPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
         "packagesPath": "C:\\Users\\emre.akturk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\obj\\",
+        "outputPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emre.akturk\\AppData\\Roaming\\NuGet\\NuGet.Config",

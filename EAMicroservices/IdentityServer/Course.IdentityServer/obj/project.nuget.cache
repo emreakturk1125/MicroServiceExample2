@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GFKMIWO9AEPNgxvhT4lZ5GgW3k2n8aLfnWe6Nb7enq0fHOGXkfFHCqj7bBKPhpxzBhNMsfBNx5hhe6C8UxPdAg==",
+  "dgSpecHash": "YkzOWwfHJXFbjCzJv1LIMZWw6xojlz1ywmiNlofCua9ZjLloLUsTfvX9LXe+0tufMujp+BngHkGMVYsBwgyTbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\Course.IdentityServer.csproj",
+  "projectFilePath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\IdentityServer\\Course.IdentityServer\\Course.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emre.akturk\\.nuget\\packages\\identitymodel\\4.3.0\\identitymodel.4.3.0.nupkg.sha512",
     "C:\\Users\\emre.akturk\\.nuget\\packages\\identityserver4\\4.0.0\\identityserver4.4.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {}
+    "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
+    "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
         "projectName": "Course.Shared",
-        "projectPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
+        "projectPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\Course.Shared.csproj",
         "packagesPath": "C:\\Users\\emre.akturk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Shared\\Course.Shared\\obj\\",
+        "outputPath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Shared\\Course.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emre.akturk\\AppData\\Roaming\\NuGet\\NuGet.Config",

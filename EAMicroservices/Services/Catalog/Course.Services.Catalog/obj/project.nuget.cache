@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NM0IGgtzRLI7XeyPp3hPd6XtHuPHSlY66yNTR8QyKdifR5SeuqPL1TLTzEXQTSvuRy+7SqRYGpQaRsshw78tbQ==",
+  "dgSpecHash": "LTZF15TtRAkGKJWeb4cVY1L8IBHIV0qbA+gcwo/Q4L6ovVabW4RuMAwC7ieQrUzLilsYakpKRFadns1KusnVAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emre.akturk\\source\\repos\\EAMicroservices\\Services\\Catalog\\Course.Services.Catalog\\Course.Services.Catalog.csproj",
+  "projectFilePath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Services\\Catalog\\Course.Services.Catalog\\Course.Services.Catalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emre.akturk\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\emre.akturk\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
