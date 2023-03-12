@@ -13,19 +13,19 @@ Not : ("Docker Desktop" ve "Portainer")  aynı işe yarar
 
 
 
---------------- Course.Services.Catalog ------------------
+# --------------- Course.Services.Catalog ------------------
 * .Net 5.0
 * Database : MongoDb, ("MongoDB.Driver" kütüphanesi kurulmalı) ve Docker Container olarak ayağa kaldırılacak
 * appsettings.json içinde "launchBrowser": false,                     // False olması Proje ayagağa kalkarken default olarak bir tarayıcı ayağa kalmaması içindir
 * appsettings.json içinde "applicationUrl": "http://localhost:5011",  // 5011 portundan ayağa kalksın dedik
 
 
------------------- Course.Shared --------------------
+# ------------------ Course.Shared --------------------
 
 * .Net 3.1  olarak create etme sebebimiz, Identity Server kullanağız 3.1 den sonraki sürümler ücretli olduğu için Identity Server api si de 3.1 olacak
 ve bu projeninde kullancağı modeller [Course.Shared] içinde olacağı için  [Course.Shared] da 3.1 olarak create ettik
 
------------------- Course.IdentityServer --------------------
+# ------------------ Course.IdentityServer --------------------
 
 * Database : SqlServer,
 * Identity Server kütüphanesi Token işlmeleri için kullanılan kütüphanedir
@@ -37,22 +37,61 @@ ve bu projeninde kullancağı modeller [Course.Shared] içinde olacağı için  
     5. windows authentication ile girdik
     6. Identity Server endpointlerini görmek için  https://localhost:5001/.well-known/openid-configuration
 
------------------- Course.Services.PhotoStock --------------------
+# ------------------ Course.Services.PhotoStock --------------------
 
 * Database yok sadece Fotoğraf kaydetmek ve silmek için wwwroot içerisine
 
------------------- Course.Services.Basket --------------------
+# ------------------ Course.Services.Basket --------------------
 
 * Database : Redis
 
------------------- Course.Services.Discount --------------------
+# ------------------ Course.Services.Discount --------------------
 
 * Database : PostgreSQL  (user:admin, password:Password12*)
-* Dapper (Micro ORM) => Herhangibir db ile kullanılabilir  (Dapper.Contrib kütühanesi kullanıldı)
+* ORM : Dapper (Micro ORM) => Herhangibir db ile kullanılabilir  (Dapper.Contrib kütühanesi kullanıldı)
    
------------------ Dapper & EntityFramework farkı ---------------
+# ----------------- Dapper & EntityFramework farkı ---------------
 
 * Dapper'da SQL sorgularını kendiniz yazarsınız. EF'de ise  sql sorguları yerine LINQ sorguları yazılır ve bu LINQ sorgularını framework sql sorguarına çevirir
 * Dapper memory'de çalışmaz, ama ef de yapılan crud işlemleri memory de tutulur (AsNoTracking özelliğini kapatılmaz ise)  en son SaveChanges() metodu ile işlem tamamlanır
+
+
+# ------------------ Course.Services.Order --------------------
       
+* Database : SqlServer,
+* ORM : EF COre
+* Domain Driven Design yaklaşımı
+* CQRS pattern
+* Onion Mimarisi (merkezden(içten) dışa doğru giden bir yapıdır)
+      => En temelde bütün business olduğu "Domain" katmanı vardır. İçerisinde (Entity, Value Objects, Domain Events, Aggregate Root) 
+            * Entity : Kendisine ait unique değeri olan yapılar (Entity classları gibi)
+            * Value Object : Kendisine ait unique değeri olmayan yapılar (Uniqe değeri olmayan property lerin olduğu classları gibi)
+            * Aggregate Root : bir biri ile alakalı entity'lerin bir arada bulunmasıdır.
+      => Bir üst katman "Repositories" (domain katmanını üstü)
+      => Bir üst katman "Application" Services (repositories katmanını üstü)
+      => Bir üst katman ise "UI" katmanıdır
+* Proje Yapısı;
+      => Presentation    (UI'a karşılık)
+      => Application     (Application services'e karşılık)
+      => Domain          (Domain'e karşılık)
+      => Infrastructure  (Repository'e karşılık)
+
+
+
+# ----------------- Domain Driven Design Nedir -------------------
+
+* DDD : Projelerimizdeki karmaşıklığı çözmemize, sürdürülebilir olmasını sağlamaya yarayan bir yaklaşımdır
+* Çok fazla business kurallarını olduğu ve böylece karmaşıklığında olduğu durumlar için DDD yaklaşımı gerekli olabilir. Temel CRUD işlemlerinin olduğu durumlarda tercih edilmemelidir
+
+DDD içerisinde kullanılan yapılar;
+   
+   * Ubiquitous Language (Heryerde geçerli ortak dil, isim)
+   * Bounded Context (Gruplanmış, parçalanmış ya da izole edilmiş ve birbiri ile ilişkisi olan yapılardır)
+       => Bounded Context İzolasyon seviyeleri de mevcuttur.
+            1.) Dosya (Folder) seviyesinde tutulursa. (1. Seviye)      
+            2.) Class library seviyesinde tutulursa. (2. Seviye)     
+            3.) Her bounded context için ayrı bir microservice oluşturmak (3. seviye)
+       => Bounded Context ler birbirleri ile "Domain Events" ler  vasıtasıyla haberleşirler. Yani Event fırlatılır diğerleri de dinler
+       => 1. ve 2. seviye Bounded Context durumlarında (Monolitik bir uyuglama içerisinde ise contextler) haberleşme Event Fırlatılarak yapılır
+       => 3. seviye yani microservis mimarisinde ise Event Bus lar kullanılarak haberleşme sağlanır
        

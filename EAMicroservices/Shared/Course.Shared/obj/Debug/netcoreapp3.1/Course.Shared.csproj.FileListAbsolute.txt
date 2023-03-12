@@ -8,3 +8,13 @@ C:\Users\emre.akturk\source\repos\EAMicroservices\Shared\Course.Shared\obj\Debug
 C:\Users\emre.akturk\source\repos\EAMicroservices\Shared\Course.Shared\obj\Debug\netcoreapp3.1\Course.Shared.csproj.CoreCompileInputs.cache
 C:\Users\emre.akturk\source\repos\EAMicroservices\Shared\Course.Shared\obj\Debug\netcoreapp3.1\Course.Shared.dll
 C:\Users\emre.akturk\source\repos\EAMicroservices\Shared\Course.Shared\obj\Debug\netcoreapp3.1\Course.Shared.pdb
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Shared\Course.Shared\bin\Debug\netcoreapp3.1\Course.Shared.deps.json
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Shared\Course.Shared\bin\Debug\netcoreapp3.1\Course.Shared.dll
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Shared\Course.Shared\bin\Debug\netcoreapp3.1\Course.Shared.pdb
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Shared\Course.Shared\obj\Debug\netcoreapp3.1\Course.Shared.csproj.AssemblyReference.cache
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Shared\Course.Shared\obj\Debug\netcoreapp3.1\Course.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Shared\Course.Shared\obj\Debug\netcoreapp3.1\Course.Shared.AssemblyInfoInputs.cache
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Shared\Course.Shared\obj\Debug\netcoreapp3.1\Course.Shared.AssemblyInfo.cs
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Shared\Course.Shared\obj\Debug\netcoreapp3.1\Course.Shared.csproj.CoreCompileInputs.cache
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Shared\Course.Shared\obj\Debug\netcoreapp3.1\Course.Shared.dll
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Shared\Course.Shared\obj\Debug\netcoreapp3.1\Course.Shared.pdb
