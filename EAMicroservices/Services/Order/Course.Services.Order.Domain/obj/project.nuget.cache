@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BWr6xciT+uto0N2rcBN3nrd+M9NSRuMUJ59tU2duFGsem7xHfHORItDm8JqxKx7IYCw08nM2kbaAU/cya8sImA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emre.akturk\\Documents\\GitHub\\MicroServiceExample2\\EAMicroservices\\Services\\Order\\Course.Services.Order.Domain\\Course.Services.Order.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emre.akturk\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\emre.akturk\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\emre.akturk\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\emre.akturk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

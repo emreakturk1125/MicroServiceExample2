@@ -1,0 +1,5 @@
+ //EF Core features ?
+
+    // -- Owned Types
+    // -- Shadow Property
+    // -- Backing Field

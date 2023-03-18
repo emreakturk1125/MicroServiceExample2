@@ -2,4 +2,5 @@ Catalog Api => http://localhost:5011
 PhotoStock Api => http://localhost:5012
 Basket Api => http://localhost:5013
 Discount Api => http://localhost:5014
+Order Api => http://localhost:5015
 Identity Server => http://localhost:5001  => Token alamk için gerekli olan servis

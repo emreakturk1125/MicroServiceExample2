@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="MassTransit" Version="8.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\Course.Shared\Course.Shared.csproj" />
+    <ProjectReference Include="..\Course.Services.Order.Domain\Course.Services.Order.Domain.csproj" />
+    <ProjectReference Include="..\Course.Services.Order.Infrastructure\Course.Services.Order.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
