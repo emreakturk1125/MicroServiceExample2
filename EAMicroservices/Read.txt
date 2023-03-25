@@ -102,4 +102,8 @@ DDD içerisinde kullanılan yapılar;
 
 * (Query ve Command ların birbirlerinden ayrılmasıdır.) Veritabanına yapılacak query ler ile insert, update, delete işlemlerinin birbirinden ayrılmasıdır.
 * CQRS implementasyonu için MediatR kütüphanesi kulllanılır.
+
+
+
+# ------------------ Course.Services.FakePayment --------------------
        

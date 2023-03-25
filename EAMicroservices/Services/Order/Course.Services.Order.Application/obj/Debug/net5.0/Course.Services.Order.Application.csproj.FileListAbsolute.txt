@@ -17,3 +17,5 @@ C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Servi
 C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Services\Order\Course.Services.Order.Application\bin\Debug\net5.0\Course.Services.Order.Infrastructure.pdb
 C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Services\Order\Course.Services.Order.Application\bin\Debug\net5.0\Course.Services.Order.Domain.Core.pdb
 C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Services\Order\Course.Services.Order.Application\obj\Debug\net5.0\Course.Services.Order.Application.csproj.CopyComplete
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Services\Order\Course.Services.Order.Application\bin\Debug\net5.0\Course.Shared.dll
+C:\Users\emre.akturk\Documents\GitHub\MicroServiceExample2\EAMicroservices\Services\Order\Course.Services.Order.Application\bin\Debug\net5.0\Course.Shared.pdb

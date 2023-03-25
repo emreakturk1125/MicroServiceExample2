@@ -38,15 +38,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Services.Discount", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{CA1307FC-E633-493C-8C0A-EC17ABDB5770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.Order.API", "Services\Order\Course.Services.Order.API\Course.Services.Order.API.csproj", "{7BA33F20-0DB0-42A9-9E54-44FCCD8F38E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Services.Order.API", "Services\Order\Course.Services.Order.API\Course.Services.Order.API.csproj", "{7BA33F20-0DB0-42A9-9E54-44FCCD8F38E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.Order.Application", "Services\Order\Course.Services.Order.Application\Course.Services.Order.Application.csproj", "{2386EE74-BD88-4483-B849-915AB8EEBF6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Services.Order.Application", "Services\Order\Course.Services.Order.Application\Course.Services.Order.Application.csproj", "{2386EE74-BD88-4483-B849-915AB8EEBF6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.Order.Domain", "Services\Order\Course.Services.Order.Domain\Course.Services.Order.Domain.csproj", "{031BC99B-79DD-4592-9643-469A479CB0F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Services.Order.Domain", "Services\Order\Course.Services.Order.Domain\Course.Services.Order.Domain.csproj", "{031BC99B-79DD-4592-9643-469A479CB0F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.Order.Domain.Core", "Course.Services.Order.Domain.Core\Course.Services.Order.Domain.Core.csproj", "{F6853E80-5A81-404E-B06E-0A221A6C3FC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Services.Order.Domain.Core", "Course.Services.Order.Domain.Core\Course.Services.Order.Domain.Core.csproj", "{F6853E80-5A81-404E-B06E-0A221A6C3FC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.Order.Infrastructure", "Services\Order\Course.Services.Order.Infrastructure\Course.Services.Order.Infrastructure.csproj", "{9D57D5B2-BF6B-4CD2-8130-13455F73D168}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Services.Order.Infrastructure", "Services\Order\Course.Services.Order.Infrastructure\Course.Services.Order.Infrastructure.csproj", "{9D57D5B2-BF6B-4CD2-8130-13455F73D168}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FakePayment", "FakePayment", "{32DE4CB8-577F-46B8-9B08-DAC44DFEFC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Service.FakePayment", "Services\FakePayment\Course.Service.FakePayment\Course.Service.FakePayment.csproj", "{2A3D880D-CB5A-4A42-BC25-89F55C905637}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +102,10 @@ Global
 		{9D57D5B2-BF6B-4CD2-8130-13455F73D168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D57D5B2-BF6B-4CD2-8130-13455F73D168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D57D5B2-BF6B-4CD2-8130-13455F73D168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3D880D-CB5A-4A42-BC25-89F55C905637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3D880D-CB5A-4A42-BC25-89F55C905637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3D880D-CB5A-4A42-BC25-89F55C905637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3D880D-CB5A-4A42-BC25-89F55C905637}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +127,8 @@ Global
 		{031BC99B-79DD-4592-9643-469A479CB0F8} = {CA1307FC-E633-493C-8C0A-EC17ABDB5770}
 		{F6853E80-5A81-404E-B06E-0A221A6C3FC8} = {CA1307FC-E633-493C-8C0A-EC17ABDB5770}
 		{9D57D5B2-BF6B-4CD2-8130-13455F73D168} = {CA1307FC-E633-493C-8C0A-EC17ABDB5770}
+		{32DE4CB8-577F-46B8-9B08-DAC44DFEFC6D} = {02A58531-0CB7-41BC-B38F-D98B80EEF524}
+		{2A3D880D-CB5A-4A42-BC25-89F55C905637} = {32DE4CB8-577F-46B8-9B08-DAC44DFEFC6D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39213EE2-E11D-4EB6-9887-64AEA268F6B4}
