@@ -106,4 +106,15 @@ DDD içerisinde kullanılan yapılar;
 
 
 # ------------------ Course.Services.FakePayment --------------------
+
+* Rastgele bie requeste göre response dönen ödeme servisi
+
+
+# ----------------- API GATEWAY ------------------
+
+* Herhangibir client servislere direk erişmek yerine ApiGateway üzerinde erişir
+* Ocelot kütüphanesi kullanılır
+* Authorization, Caching, Logging, Rate Limit, Load Balanced işlmeleri yapılabilir
+
+
        

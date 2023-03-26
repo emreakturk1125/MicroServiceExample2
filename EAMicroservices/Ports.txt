@@ -5,3 +5,5 @@ Discount Api => http://localhost:5014
 Order Api => http://localhost:5015
 FakePayment Api => http://localhost:5016
 Identity Server => http://localhost:5001  => Token alamk için gerekli olan servis
+Api Gateway => http://localhost:5000  
+Web Client => http://localhost:5010  
