@@ -4,4 +4,43 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\_ViewImports.cshtml" />
+    <None Include="Views\_ViewStart.cshtml" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap-5.0\css\bootstrap.rtl.min.css.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.1" />
+    <PackageReference Include="IdentityModel" Version="6.0.0" />
+    <PackageReference Include="IdentityModel.AspNetCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="6.28.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Course.Shared\Course.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
